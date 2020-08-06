@@ -1,0 +1,284 @@
+{
+  "bytes": 159434,
+  "datahub": {
+    "created": "2018-05-18T19:24:18.960727",
+    "findability": "published",
+    "flowid": "machine-learning/tic-tac-toe-endgame/2",
+    "modified": "2018-05-18T19:26:39.227119",
+    "owner": "machine-learning",
+    "ownerid": "machine-learning"
+  },
+  "hash": "b9c21124b2ce8bc30c767783c18f1f54",
+  "id": "machine-learning/tic-tac-toe-endgame",
+  "licences": [
+    {
+      "name": "odc-pddl",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
+    }
+  ],
+  "name": "tic-tac-toe-endgame",
+  "resources": [
+    {
+      "bytes": 23358,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/16dbf250f990502ffc5ced252115be99.csv",
+      "encoding": "ISO-8859-1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "tic-tac-toe_original",
+      "path": "archive/tic-tac-toe.csv",
+      "pathType": "local",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "TL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ML",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "boolean"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 482,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmpjmr9wewt/machine-learning/tic-tac-toe-endgame/validation_report/data/9a62b27fbea340509c089cdc6bbebf00/validation_report.json",
+      "format": "json",
+      "hash": "9a62b27fbea340509c089cdc6bbebf00",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 23358,
+      "datahub": {
+        "derivedFrom": [
+          "tic-tac-toe"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpjmr9wewt/machine-learning/tic-tac-toe-endgame/tic-tac-toe_csv/data/d95d3153e2707128bc04a29242eb8c37/tic-tac-toe_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "d95d3153e2707128bc04a29242eb8c37",
+      "mediatype": "text/csv",
+      "name": "tic-tac-toe_csv",
+      "path": "data/tic-tac-toe_csv.csv",
+      "pathType": "local",
+      "profile": "tabular-data-resource",
+      "rowcount": 958,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "TL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ML",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "boolean"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 110503,
+      "datahub": {
+        "derivedFrom": [
+          "tic-tac-toe"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpjmr9wewt/machine-learning/tic-tac-toe-endgame/tic-tac-toe_json/data/b17d88de46d4facd2022093b7da596ec/tic-tac-toe_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "b17d88de46d4facd2022093b7da596ec",
+      "mediatype": "text/csv",
+      "name": "tic-tac-toe_json",
+      "path": "data/tic-tac-toe_json.json",
+      "pathType": "local",
+      "profile": "tabular-data-resource",
+      "rowcount": 958,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "TL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "TR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ML",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "MR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BM",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BR",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "boolean"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1733,
+      "dpp:streamedFrom": "/tmp/tmps6yauflx/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "path": "https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame",
+      "title": "[UCI - Tic-Tac-Toe Endgame Data set"
+    }
+  ],
+  "title": "Tic Tac Toe Endgame"
+}
